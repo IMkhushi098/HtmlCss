@@ -6,10 +6,10 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0.5)50%, rgba(0,0,0.5)50%,), url(1.jpg)
-    backgroun-position: center;
+    background: linear-gradient(to top, rgba(0,0,0.5)50%, rgba(0,0,0.5)50%,);
+    background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 100vh;
 
 }
 
@@ -71,20 +71,28 @@ ul li a:hover{
     color: orangered;
 }
 
+ol li{
+    font-family: Arial;
+    font-size: 17px; 
+    font-weight:500;
+}
+
 .search{
     width: 300px;
     float: left;
-    margin-left: 300px;
-
+    margin-left: 270px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
 }
 .srch{
     font-family: 'Times New Roman', Times, serif;
     width: 200px;
     height: 40px;
-    background: transparent;
-    border: 1px solid orangered;
-    margin-top: 130x;
-    color: white;
+    background: #000000;
+    border: 2px solid orangered;
+    margin-top: 0px;
+    color: hsl(0, 0%, 0%);
     border-right: none;
     font-size: 18px;
     float: left;
@@ -101,9 +109,9 @@ ul li a:hover{
     border: 2px solid orangered;
     margin-top: 0px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
 
 }
 
@@ -178,7 +186,7 @@ ul li a:hover{
     width: 250px;
     height: 380px;
     background: linear-gradient(to top, black,black 50%);
-    posotion: absolute;
+    position: absolute;
     top: -20px;
     left: 870px;
     border-radius: 10px;
@@ -193,7 +201,7 @@ ul li a:hover{
     color: orangered;
     font-size: 22px;
     background-color: aqua;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 2px;
     padding: 8px;
 
@@ -236,6 +244,7 @@ ul li a:hover{
     cursor: pointer;
     color: white;
     transition: 0.4s ease;
+    border-radius: 7px;
 
 }
 
